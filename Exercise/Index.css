@@ -1,11 +1,14 @@
-*{ 
-    color: red;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
+nav {
+    background-color: black;
+    color: whitesmoke;
 }
-
-    main div h2,
-    main div p {
-        font-style: italic;
-    }
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
