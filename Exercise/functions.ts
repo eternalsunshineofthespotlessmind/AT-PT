@@ -42,7 +42,7 @@
     console.log(greeting("Trifon", 20));
 
     // default parameters
-    function substractNums (numOne: numer = 10, numTwo: number = 5) {
+    function substractNums (numOne: number = 10, numTwo: number = 5) {
         console.log(numOne - numTwo);
     }
     substractNums(50);
