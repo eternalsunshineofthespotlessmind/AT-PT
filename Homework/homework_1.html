@@ -2,54 +2,91 @@
 <html>
   <head>
     <title>About our company</title>
-    <link rel="stylesheet" href="./Index.css" />
+    <link rel="stylesheet" href="./homework.css" />
   </head>
   <body>
-    <h1>About our company</h1>
-    <nav>
+    <nav class="black-background">
       <ul>
-        <li><a href="url">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="center"><a href="url">Home</a></li>
+        <li class="center"><a href="#about">About</a></li>
+        <li class="center"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <h1>About our company</h1>
     <main>
-        <button type="button">Learn More</button>
-        <section id="about">
-        <h2>About us</h2>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Company pictures" width="800" height="400"
-        />
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took s galley of type and
-          scrambled it to make a type specimen book. </p>
-          <p>It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+      <div class="center">
+        <input type="text" placeholder="Search.." />
+        <button class="button" type="submit">Submit</button>
       </div>
-    </section>
-    <section id="contact">
-      <h2>Contact us</h2>
-      <p><strong>Corporate Headquarters</strong>
-        <br>
-        <br>
-        NovaEdge Technologies Inc.<br>
-        1200 Innovation Drive, Suite 450<br>
-        San Francisco, CA 94107, USA<br>
-        <br>
-        Phone: +1 (415) 555-0198<br>
-        Fax: +1 (415) 555-0142</p>
-    </section>
+      <section id="about">
+        <h2>About us</h2>
+        <div class="gallery">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Company pictures"
+          />
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Company pictures"
+          />
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Company pictures"
+          />
+        </div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+            nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+            condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem
+            neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+            hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+            Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed
+            fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed
+            consequat, leo eget bibendum sodales, augue velit cursus nunc,
+          </p>
+          <p>
+            It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+          </p>
+        </div>
+      </section>
+      <section id="contact" class="center">
+        <h2>Contact us</h2>
+        <p>
+          <strong>Corporate Headquarters</strong>
+          <br />
+          <br />
+          NovaEdge Technologies Inc.<br />
+          1200 Innovation Drive, Suite 450<br />
+          San Francisco, CA 94107, USA<br />
+          <br />
+          Phone: +1 (415) 555-0198<br />
+          Fax: +1 (415) 555-0142
+        </p>
+      </section>
     </main>
-    <footer>
+    <footer class="black-background">
       <p>&copy; All rights reserved</p>
     </footer>
   </body>
