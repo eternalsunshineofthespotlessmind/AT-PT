@@ -64,3 +64,11 @@ if (numThree <=  3) {
 else {
     console.log("numThree is not greater than 3")
 }
+
+// Union types
+
+let id: string | number;
+
+id = 10;
+id = "10";
+let result: number | boolean | null;
