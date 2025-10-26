@@ -96,3 +96,32 @@ const thirdUser: UserPermission = {
   job: 'QAAAA',
   permissions: "denied",
 };
+
+// exercise sum total price
+
+interface Product {
+  name: string;
+  price: number;
+  getTotalPrice: (guantity: number) => number;
+}
+
+const phone: Product = {
+ name: 'Nokia',
+ price: 600,
+ getTotalPrice: function (quantity: number){
+  return quantity * this.price;
+ }
+}
+
+
+console.log(phone)
+
+function orderDetails (quantity: number, product: Product) {
+  console.log(`Order for: ${product.name}`);
+  console.log(`Product quantity: ${quantity}`);
+  console.log(`Product unit price: $${product.price}`);
+  console.log(`Total price: ${product.getTotalPrice(quantity)}$`)
+  // console.log("quantity", quantity);
+  // console.log("product", product);
+}
+orderDetails(5, phone)
